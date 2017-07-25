@@ -15,7 +15,7 @@ import glob
 files = glob.glob('CroppedImages/*')
 for f in files:
     os.remove(f)
-img_final = cv2.imread("equation.jpg")
+img_final = cv2.imread("equation5.jpg")
 size = (15,15)
 
 img_final = cv2.resize(img_final, (480, 640))
